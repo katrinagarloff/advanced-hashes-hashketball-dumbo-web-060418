@@ -1,6 +1,4 @@
 # Write your code here!
-
-require "pry"
 def game_hash
   {
     :home => {
@@ -250,7 +248,7 @@ def big_shoe_rebounds
     num_rebounds
 end
 
-big_shoe_rebounds
+
 
 
 
