@@ -238,9 +238,8 @@ def big_shoe_rebounds
                elsif max_shoe_size < num 
                  max_shoe_size = num 
                  num_rebounds = game_hash[home_away_key][team_attr_key][data_key][:rebounds]
-               puts max_shoe_size
-          binding.pry
         else
+          num_rebounds
         end
         end
         end
